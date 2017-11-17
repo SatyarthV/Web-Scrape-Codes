@@ -14,7 +14,6 @@ import pandas as pd
 from twilio.rest import Client
 
 
-#driver = webdriver.Chrome(executable_path = '/home/fractaluser/bin')
 driver = webdriver.Chrome(executable_path = '/home/satyarthvaidya/Downloads/chromedriver')
 # Your Account SID from twilio.com/console
 #final=[]
@@ -23,9 +22,7 @@ for pg in range(23,29):
 
     try:
         final = []
-#        account_sid = "ACdf33746298a74e7df8c73331762b6a32"
-        # Your Auth Token from twilio.com/console
-#        auth_token  = "3ba848a1f74dd2682909dd5cfd0e6453"
+#        
     
 #        client = Client(account_sid, auth_token)
         print("DATE : " + str(pg) + " AUGUST" + "\n")
